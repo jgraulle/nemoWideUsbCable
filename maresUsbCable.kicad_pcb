@@ -128,7 +128,7 @@
 	(net 7 "Net-(D3-A)")
 	(net 8 "Net-(D1-K)")
 	(net 9 "Net-(D2-K)")
-	(net 10 "Net-(D3-K)")
+	(net 10 "/TXD")
 	(net 11 "Net-(J1-CC2)")
 	(net 12 "Net-(J1-CC1)")
 	(net 13 "Net-(J2-Pin_1)")
@@ -138,7 +138,7 @@
 	(net 17 "/RXLED")
 	(net 18 "unconnected-(U1-CBUS0-Pad15)")
 	(net 19 "unconnected-(U1-CBUS3-Pad16)")
-	(net 20 "Net-(U1-RXD)")
+	(net 20 "/RXD")
 	(net 21 "unconnected-(U1-~{RTS}-Pad2)")
 	(net 22 "unconnected-(U1-~{CTS}-Pad6)")
 	(net 23 "Net-(U2-Pad5)")
@@ -161,7 +161,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -212,58 +212,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76e12909-66db-4476-b806-a5403a76fae1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6994b17f-83d0-4f4b-999e-7c6c82378ca0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f589e01-5d67-4959-9e5d-abd518e78193")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21B104KCFNNNE"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f609904-05df-48b4-a7b4-eecb61b1fbdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -303,9 +251,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a75a4e05-3ed7-473e-b0df-39f038fa59cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2544c93-0100-4d2f-a78b-1942d36b22c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7da623e-b388-4364-8ddd-b0ac0075adb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7d537d0-76bd-4d6c-a7b5-ad18d237ed54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21B104KCFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d36ec4f8-43fa-4a10-802c-5b4edd50f479")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7e297db7-1620-469d-8445-32c8bf70893c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -467,7 +480,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -518,58 +531,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ba6171f-2f4b-46d9-8d41-652eb0a38117")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05c32293-3848-43ea-94f0-fc39baa6da6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c6d09b4-3cdd-439f-a8bc-01527ac36e09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21B104KCFNNNE"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f46ff947-04fc-4597-9fcb-0904cf6376c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 90)
 			(unlocked yes)
@@ -609,9 +570,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c89e8c36-32f2-4cf6-9041-6cc3c8318867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10b20db6-7915-44c7-8be7-7c30fb890749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75fe95a8-ab64-432d-9a41-211c45f12405")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfe7a649-bf17-4726-95de-003151c20c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21B104KCFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468d8ee9-389c-45a7-b8cf-69df02359768")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/421ad7c5-7700-4457-87bd-587df97dcb2c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -773,7 +799,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "100kΩ"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -811,7 +837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Must be significantly larger than 10k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -820,58 +846,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c02bef38-e39d-4ea9-ba45-981eb1f9eeb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87360fd8-739a-43b3-80a2-54c9b6fbe1b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7435a8b-45c1-4ac7-833e-64b4264d4da0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F5101T5E"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f74f9551-d7e4-4378-b545-9793f1bcdb1e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -902,7 +876,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -915,9 +889,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebdf4f19-4743-4e6b-ad2b-3d77efa0330e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aadc55cd-56fa-43b9-ae40-a34a46a40259")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8574e9d0-5a34-49d8-a3ba-9f1ca24bf3b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fa2265b-580f-4ddb-9de8-2b62f77ddd3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6029affe-dd2f-4029-a519-6b8bc05d0754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15afe0d9-dfef-4554-9ed1-9653b4e842b3")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1138,32 +1177,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13687409-74ee-4079-8a0b-34e253a22929")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC2G132DCTR"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9b533a8-a2bb-4706-8daa-3bce6c1443a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2870897"
 			(at 0 0 180)
 			(unlocked yes)
@@ -1177,9 +1190,35 @@
 				)
 			)
 		)
+		(property "LCSC-Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90fece23-47b0-4d1e-b74f-3c7bc03fe0ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "SN74LVC2G132DCTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4fca9ba-63f6-4a05-8890-e62c73ba1055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/1202f256-a78f-4d2f-aca9-2ac023e6fb27")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1276,7 +1315,7 @@
 			(at 0.325 1.9 180)
 			(size 0.4 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "Net-(U1-RXD)")
+			(net 20 "/RXD")
 			(pintype "output")
 			(thermal_bridge_angle 45)
 			(uuid "4db7efa9-ccf8-4673-a532-1f2792b3d858")
@@ -1304,7 +1343,7 @@
 			(at 0.325 -1.9 180)
 			(size 0.4 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 10 "Net-(D3-K)")
+			(net 10 "/TXD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
 			(uuid "03f1117c-9776-4ea9-b6a3-b1d9b4237c97")
@@ -1396,7 +1435,7 @@
 				)
 			)
 		)
-		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
+		(property "Description" "Green LED Indication nominalForwardCurrent=25mA fowardVoltage=2V@5mA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1405,32 +1444,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fae7e644-6267-40c3-b812-8f4737bc1a98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87691343-b1ed-4f36-9929-b50b284600ee")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1461,9 +1474,35 @@
 				)
 			)
 		)
+		(property "LCSC-Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cabf5d6-988d-44e1-81bc-6ab89a5047d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "KT-0805G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3158582-859d-47ac-aa5b-a4ee7b64a166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/188d98ac-383e-4b73-9c12-11d04a4b973e")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1685,7 +1724,7 @@
 				)
 			)
 		)
-		(property "Description" "Red 0805 LED Indication - Discrete ROHS"
+		(property "Description" "Red LED Indication nominalForwardCurrent=25mA fowardVoltage=2V@5mA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1694,32 +1733,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48383eba-d711-4dcd-853b-ada4ea184a98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "NCD0805R1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f2cec72-527a-4fbd-8671-5dfe07a42317")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1750,9 +1763,35 @@
 				)
 			)
 		)
+		(property "LCSC-Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdca555d-2d2e-4212-a0a7-ee410c7f242e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "NCD0805R1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a98aba3d-149e-4395-b00d-22b07a582b23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d8112834-3939-4e90-9aba-c8a96efa02e4")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1936,7 +1975,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "470Ω"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1974,7 +2013,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Value must be chosen to have between 1mA and 5mA with the Vf LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1983,58 +2022,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fd84473-4dc1-47ec-8290-e8c20c02e599")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c06cea8-42a3-4d3a-90b2-2918213d6f35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f935150-cb64-4e05-a572-571a1d90f44f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F1200T5E"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9446b44-d107-4091-b4fd-f06c49ba8df4")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2065,7 +2052,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17437"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2078,9 +2065,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3557ef36-11cf-4046-9bf1-7f7ec24c3ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e94b40e3-ba7b-4717-96a1-c7148fc0fe75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659c58e2-2cea-4e98-ad6b-7ba2fde25b8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "511e4545-d44a-4316-9602-9d09c9adb4fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1807efc-8dbc-4b9f-8591-d573a42cb5da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/828f956f-7092-433e-a0b7-990bff3779b0")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2242,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2293,58 +2345,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a086f59-5853-4401-b93a-93cc5866118a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f2f133a-cedb-4d0d-985e-4b75ffc0cff3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2dfa06a0-aef0-4976-ac78-bba89735384e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21A475KAQNNNE"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5042505f-5f34-4682-bc89-76f1037d8a36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -2384,9 +2384,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a849e29e-9312-4956-b515-bbd6905485ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "687ed17e-78f7-4a6c-8669-72e6d168b03e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84d162fb-37d1-4e00-93b8-8d05b6793189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "304d3425-add0-43a1-a2e0-5b39e1aab249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21A475KAQNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77aeab58-c2bc-4f74-a338-21db10e0e7c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/dddf9f0f-84f9-4b39-bd19-fc5b4f508b4d")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2599,32 +2664,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "G-Switch"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef0a4644-603a-4a7d-820c-3950956fcb5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "GT-USB-7010ASV"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a51b6226-a91b-413b-a9b7-01c5e01073c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2988369"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -2638,9 +2677,35 @@
 				)
 			)
 		)
+		(property "LCSC-Manufacturer" "G-Switch"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8358635d-67bd-4553-94bb-670db5941bb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "GT-USB-7010ASV"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ca55e6-3db9-42b4-ba18-77ab412b0a0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/be4d40ea-6081-4b8b-9913-23ccc924a654")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3059,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 650mV@50mA 200mA SOD-123 Schottky Diodes ROHS"
+		(property "Description" "Schottky Diodes reverseBreakdownVoltage>>5V leakageCurrent<1µA reverseRecoveryTime<=5ns 650mV@50mA 1V@200mA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3068,32 +3133,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Intertech"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5d35baa-15e8-4862-a229-d18889e9d24a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "BAT42W-E3-08"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "254a791d-74a0-4adf-9e48-896f590214b1")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3124,9 +3163,35 @@
 				)
 			)
 		)
+		(property "LCSC-Manufacturer" "Vishay Intertech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df43efbc-f69c-4875-8ab1-8bfab516b585")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "BAT42W-E3-08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69a8bb6-b02f-496f-8bc1-dff1fc0fb64f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/aa2fdc4c-2e50-48d8-af51-0b45ebe96e0c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3325,7 +3390,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 10 "Net-(D3-K)")
+			(net 10 "/TXD")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "06bdb037-9665-4990-98e3-b96f6e3ece51")
@@ -3370,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3421,58 +3486,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d5d8e7c-e7e6-469c-9408-44fb25797717")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e48285d-38bf-4fec-8a49-31d1907436ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3651c9c3-c958-4e3a-a1c9-2ab20a9ea4ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F5101T5E"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d895a4fc-88e7-4e60-992a-16828b1a904b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3512,9 +3525,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f5b8da-337f-4ef9-97a4-59513043a7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50bf91a-f521-47cb-bbe5-7000568c0fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd0b3a6d-4e4d-4da7-ab2e-8e22e265561f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2b61e04-3f67-4dd0-973a-85f9036ff3eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F5101T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bc39d3a-f248-475b-83a3-1d57465d8af4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/266b5d1c-631e-4776-a4f6-ed36801710f6")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3676,7 +3754,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "470Ω"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3714,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Value must be chosen to have between 1mA and 5mA with the Vf LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3723,58 +3801,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f624d31-2753-4d78-b46a-1a7a949c2d20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fade01f-a9e5-4932-907c-64d27059cbde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70528c01-26db-4441-b0b1-2535d83af99f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F1200T5E"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34e50925-a4da-4c5d-95d3-eb07d9ace020")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3805,7 +3831,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17437"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3818,9 +3844,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf9efaf8-518e-4b6c-a48f-ca970f9bd466")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11d191f8-684e-4cb2-b7d8-0c95a0cbeab7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37aa436a-3589-4c4c-8fa1-f17d028cf039")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ad9355-96f1-4f20-adff-6eeadce0069c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cb261ce-27e1-4450-b9a7-d232b83b4110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a20012c9-cdf2-4ff2-a572-fe6923b831b2")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3982,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "100Ω"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4033,58 +4124,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "970f6e35-29a1-4e6c-bb29-4d63d3275b0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a69a7175-cfe4-48a1-ad29-8a68770eb284")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cfc3c22-e8a8-49b1-ba2a-5a2173c989c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F1200T5E"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a867c04-275a-4fa3-b279-495ab21bc400")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 90)
 			(unlocked yes)
@@ -4111,7 +4150,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17437"
+		(property "LCSC" "C17408"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4124,9 +4163,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f79974-1de0-4b67-9a41-af6cc50c09da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41d5de30-30e8-4675-80bc-d1b80481f51b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ecd669b-4d3b-4a25-bdce-f3281a4e92e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71f36cca-75e4-4e1b-9847-65c5e1ceb2ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F1000T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc08f5b0-8c85-4830-8fd4-173212341aa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e65e0ecd-9aa0-47c9-acc1-86c02b1b3384")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4288,7 +4392,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4339,58 +4443,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7929706-4ef9-4a23-96d2-47d17782d5f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b508db5-1e20-4ea6-8383-e332a3b5338f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6701795-b820-47bc-bd09-9a4e3dcc106a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21B103KBANNNC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da2b3337-81cf-448e-8794-1b72624c84cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4430,9 +4482,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a6b9cad-62d4-4ee7-a151-ebcc778217ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9e23979-1ab4-4cca-ab52-47179184016d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fafbe7eb-1182-4b99-95c0-32a812f1016a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1826c636-94e9-40a2-8173-5c866bd5163c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21B103KBANNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab6a6681-efdc-48db-b3bb-bdcc30ad895b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1a431b06-9c8b-4f20-8215-32a6f16648a2")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4594,7 +4711,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "100Ω"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4645,58 +4762,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36a4207c-ffdd-48c1-8080-de027e6a86ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd1d66a9-d46b-47ec-96d7-fc3f506e94bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45eb5696-43cd-4f8b-a3ac-04b7a84c0870")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F1200T5E"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dc49da5-a10c-4c35-ab37-2cddff95f89a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -4723,7 +4788,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17437"
+		(property "LCSC" "C17408"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4736,9 +4801,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c462925-90ff-4520-8ab9-5267913ff905")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e9388f2-5c78-4277-9e54-eb89300599e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62571b3f-3138-4002-94a9-520202afa510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52507c6c-f1a1-4a28-b3b8-b3b787cd3612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F1000T5E"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f2d3aa9-1345-4cc2-90fd-790e2d945c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/355a246b-4747-4633-b2eb-c285760d83e5")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4900,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4951,58 +5081,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df91a561-da76-4ee9-a668-209e5b8cf465")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f4a2406-e40c-4fa5-9328-03cfb349328b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2340975-c8c1-49af-a41f-edc9fefea44d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21C470JBANNNC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d87187ce-f89e-4328-a036-1251a34f6a01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5042,9 +5120,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87ba3781-8b09-427f-a3d5-83ff7a7c0418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94803ca6-2a0f-48a1-80d4-17b14a16cd0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4ad1308-e38b-4a73-827d-5334d36d4426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "609afab3-1510-4a27-bd13-4ba71eacf52d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21C470JBANNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d234337b-f9b5-4143-992c-5fe339910357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a8cff00-8bad-4156-919a-484b5df3e0c2")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5206,7 +5349,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27Ω"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5257,58 +5400,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "352348e8-0b4f-4772-97a6-5e8293d20aaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3dda7a5-ccb7-4f4a-ae0b-bbabd46a7730")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7705b77-4d15-466d-b391-a3a489ed27b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F270JT5E"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa731115-94e0-4f59-ada1-37a80f00c7c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 0)
 			(unlocked yes)
@@ -5348,9 +5439,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd1b96d7-6c28-4b48-834f-872803c98abf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f1404dc-abfb-41aa-8308-5e6d32f98ee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bfdefcb-b9cd-4f94-8a1c-75680cb5ab9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c144c2-fa77-4c85-bff8-f6d346d174e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F270JT5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a1d90e7-e17b-41a5-af0a-2e1b5f9a8a23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5d7c655e-fcc7-42bd-8aac-1e1bfa5ceecd")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5512,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27Ω"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5563,58 +5719,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a4cacd5-7607-4d7e-9a53-e7ffe2a0524e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "162d0530-6efd-4acb-92dc-d6210569d9f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b6c7b3e0-eff2-4cc3-9d04-80a43c7f41ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F270JT5E"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3004f3a-c1ea-407a-8a57-eb9f1548a170")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 0)
 			(unlocked yes)
@@ -5654,9 +5758,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d70638-51b2-412a-a95c-e11e08a54e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d115cf8e-e4c4-49a0-ba9b-3b64ad59cf0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "860db0ee-5b40-47c6-9840-d614aab6f496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b629fb0-5eb6-46af-8044-5ff8a44faad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F270JT5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a376608f-91c8-4828-b382-9792da15b357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b59b8cc0-2653-457a-9f19-ca1be795b85d")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5869,45 +6038,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0ab612e-ab82-4ac9-b2c2-e1c64bbf1d56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 2" "Rated Current > 500mA"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bc77ffa-6dcb-43ee-b68e-e295815f0f01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b1135d9-754e-472e-8439-87cf73cb18ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "0805"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5934,12 +6064,51 @@
 				)
 			)
 		)
-		(property "MPN" "UPZ2012E601-2R0TF"
+		(property "Resistance" "<=0.1Ω@>0.5A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "655bbf25-f845-4a58-8167-d5a7d1a1fd70")
+			(uuid "f966c434-3512-41c6-abf7-3776e05b034c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Tolerance" "<=25%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a063b2fd-4885-48f2-9b94-1fb5d7df4fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Sunlord"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "494008c1-517f-4466-b0a2-839fb78e5315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "UPZ2012E601-2R0TF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa9e7862-d6cb-4157-8fa8-15deeb38d850")
 			(effects
 				(font
 					(size 1 1)
@@ -5949,7 +6118,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a18024d2-dafe-47da-8d52-00b0daeea71c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6111,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6162,58 +6331,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f72bfba8-2f91-43aa-ae5b-e0a0484f0da7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ef5340e-45a2-4065-8d89-eafa34272730")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b221a355-d0a0-4c46-bd26-5402a7342368")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21C470JBANNNC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "569c7677-1f80-4f71-ad95-f653efcc9661")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -6253,9 +6370,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68122e40-ac52-48dd-93c9-19c3b52b36b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8963cd8-f015-41bb-ba2c-32d961d5bdfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cedd53-3db8-4701-b4a7-e5c930f8ec81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3793dacd-39a9-4be2-92f3-a4af773c9766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21C470JBANNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc6b961d-129f-4c98-a803-1a6f6eb216c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/56ca2be3-506b-400a-b681-7a6f4ad275fb")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6417,7 +6599,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6468,58 +6650,6 @@
 				)
 			)
 		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd22dc8c-7921-4a79-a835-1f356584ad17")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d11ec01b-1821-4b65-b950-90636f4ce6e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57f76d65-232a-46fc-bfb9-593b1cb5c7e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21B104KCFNNNE"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1af36872-1241-41b6-b412-8b8b31e31c61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=10%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -6559,9 +6689,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e5632c9-f589-4fa8-ad08-f81f7a9bda6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54399e09-1ef9-4c36-8a46-7ce443df5203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "097c1254-c818-478c-8815-5e2b897a6a6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5907116-288f-4267-9cff-1f87989324df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21B104KCFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "009293f4-2438-4af9-8f4f-8a03523cf9d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/69a80441-9bd2-49ba-92ef-5fd7faf0a0fb")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6723,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6774,58 +6969,6 @@
 				)
 			)
 		)
-		(property "Value 2" ">=0.125W"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c10776de-587f-4d47-831c-763de7989e53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf1849dc-e9d0-4d5b-9983-4d7a56e50242")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35992f05-3c67-49c9-b8ad-13a1e3f12fac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "0805W8F5101T5E"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56466b5f-c364-41e6-9b30-b3803045f102")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Tolerance" "<=1%"
 			(at 0 0 180)
 			(unlocked yes)
@@ -6865,9 +7008,74 @@
 				)
 			)
 		)
+		(property "Power" ">=0.125W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f60ee61e-a1fb-4045-b162-574f0b659d91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f946b813-f164-43c5-972d-970fba40317c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "KOA, Vishay, PANASONIC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "756a94fe-6a09-44d5-995a-0e211a8c9baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d438ba1d-cdd0-4271-b084-0509717cd2b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "0805W8F5101T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6d6f089-d353-4ad5-9721-0e52bb690a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2f0b518b-4deb-4c0f-ba3d-3dfe2b4be78b")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7067,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Description" "Full Speed USB to Basic UART, SSOP-16"
+		(property "Description" "Full Speed USB to Basic UART for 3.3V"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7076,32 +7284,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "FTDI"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28fb8acb-06dd-48fc-8136-a4fb2056b3fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "FT230XS-R"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a23e9594-6a14-467a-891a-73ab27bfcf6f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7132,9 +7314,48 @@
 				)
 			)
 		)
+		(property "Hint-Manufacturer" "FTDI"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "438b74f5-86a3-49b0-b1e1-156e0b6b0def")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "FTDI"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f38f660-33ec-4a9b-a8f4-0815f3b0c7ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "FT230XS-R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f73398af-aba6-481e-b15b-ff62592b6d38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "SSOP*3.9x4.9*P0.635mm*")
 		(path "/a06da2a5-b41a-4237-95ee-53eb6410176d")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7274,7 +7495,7 @@
 			(at -2.6 -2.2225 270)
 			(size 1.2 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 10 "Net-(D3-K)")
+			(net 10 "/TXD")
 			(pinfunction "TXD")
 			(pintype "output")
 			(uuid "c05d7830-cfe0-4321-ab51-b80d9a9232e2")
@@ -7301,7 +7522,7 @@
 			(at -2.6 -0.3175 270)
 			(size 1.2 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "Net-(U1-RXD)")
+			(net 20 "/RXD")
 			(pinfunction "RXD")
 			(pintype "input")
 			(uuid "92e27fbf-dd48-4d88-8f68-5239249b119a")
@@ -7444,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7482,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "other value: 15pF, 100pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7491,58 +7712,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 2" "X7R automotive"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a5529a8-5a9d-4a54-a67b-07193fb9e276")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value 3" ">=6V"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2fa17d8e-0fda-41a7-9096-afd33310253b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kyocera or Samsung"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbb37df3-629a-4d3e-9130-f1b7e6f2b004")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CL21C470JBANNNC"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee692f48-5516-4883-a1ae-5e130b19905e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7586,9 +7755,74 @@
 				)
 			)
 		)
+		(property "Temperature" "X7R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "618e7706-ee74-4ac7-82fc-643f88fef2e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Voltage" ">=6V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04bd3ec3-0c4d-4b70-85b9-290c6214da79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "Hint-Manufacturer" "Kyocera, Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "030dccb3-7526-40c8-b862-fba7a0071dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df52f17e-3139-43c7-a6b7-3b24994b83a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
+		(property "LCSC-MPN" "CL21C470JBANNNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "281aa746-f08b-47bf-a2da-3c351b8238e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.153)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6a4681f1-e7af-4c96-ac21-dd8a2842cc3a")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7803,9 +8037,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/95dcad12-8749-4940-a706-ae3407c5b129")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "maresUsbCable.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 14.2 -1.35)
 			(end 11.2 -1.35)

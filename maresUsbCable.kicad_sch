@@ -4813,9 +4813,9 @@
 		)
 		(uuid "fe4cc1ba-cb9b-4c2a-916e-67bb18b0bd4d")
 	)
-	(text "For Vf=2.0V:\n- for 5mA: U=RI => R = U/I = (Vcc-Vf) / I = (3.3-2)/0.005 = 260Ω\n- with 100Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/100 = 13mA\n- with 120Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/120 = 10.8mA\n- with 150Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/150 = 8.67mA\n- with 180Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/180 = 7.22mA\n- with 220Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/220 = 5.91mA\n- with 270Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/270 = 4.81mA\n- with 300Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/300 = 4.33mA\n\nFor Vf=2.8V:\n- for 5mA: U=RI => R = U/I = (Vcc-Vf) / I = (3.3-2.8)/0.005 = 100Ω\n- with 120Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/120 = 4.17mA\n- with 150Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/150 = 3.33mA\n- with 180Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/180 = 2.78mA\n- with 220Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/220 = 2.27mA\n- with 270Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/260 = 1.85mA\n- with 300Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/300 = 1.67mA\n"
+	(text "For Vf=2.0V:\n- for 5mA: U=RI => R = U/I = (Vcc-Vf) / I = (3.3-2)/0.005 = 260Ω\n- with 100Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/100 = 13mA\n- with 120Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/120 = 10.8mA\n- with 150Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/150 = 8.67mA\n- with 180Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/180 = 7.22mA\n- with 220Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/220 = 5.91mA\n- with 270Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/270 = 4.81mA\n- with 330Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/330 = 3.94mA\n- with 390Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/390 = 3.33mA\n- with 470Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2)/470 = 2.77mA\n\nFor Vf=2.8V:\n- for 5mA: U=RI => R = U/I = (Vcc-Vf) / I = (3.3-2.8)/0.005 = 100Ω\n- with 120Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/120 = 4.17mA\n- with 150Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/150 = 3.33mA\n- with 180Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/180 = 2.78mA\n- with 220Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/220 = 2.27mA\n- with 270Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/260 = 1.85mA\n- with 330Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/330 = 1.52mA\n- with 390Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/390 = 1.28mA\n- with 470Ω: U=RI => I = U/R = (Vcc-Vf) / R = (3.3-2.8)/470 = 1.06mA\n"
 		(exclude_from_sim no)
-		(at 159.004 101.6 0)
+		(at 158.75 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4823,6 +4823,17 @@
 			(justify left)
 		)
 		(uuid "ef295e76-4be5-4b68-b0f8-879c5d231a44")
+	)
+	(label "TXD"
+		(at 163.83 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ecaa19-775b-4361-b67b-dda39d2f7b98")
 	)
 	(label "RXLED"
 		(at 160.02 67.31 0)
@@ -4834,6 +4845,17 @@
 			(justify left bottom)
 		)
 		(uuid "9372a580-99c6-47aa-804f-75211be7b74b")
+	)
+	(label "RXD"
+		(at 163.83 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab18a4a3-c893-41b2-91e9-ec3d7b878214")
 	)
 	(label "TXLED"
 		(at 160.02 64.77 0)
@@ -5176,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "100kΩ"
 			(at 244.602 69.088 0)
 			(effects
 				(font
@@ -5202,7 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "other value: 1kΩ, 100kΩ"
+		(property "Description" "Must be significantly larger than 10k"
 			(at 238.76 69.85 0)
 			(effects
 				(font
@@ -5254,7 +5276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "LCSC-Manufacturer" ""
 			(at 238.76 69.85 0)
 			(effects
 				(font
@@ -5263,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-MPN" "0805W8F5101T5E"
+		(property "LCSC-MPN" ""
 			(at 238.76 69.85 0)
 			(effects
 				(font
@@ -5272,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" ""
 			(at 238.76 69.85 0)
 			(effects
 				(font
@@ -6946,7 +6968,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω"
+		(property "Value" "470Ω"
 			(at 170.18 73.914 90)
 			(effects
 				(font
@@ -6972,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Value must be chosen to have 5mA with the Vf LED"
+		(property "Description" "Value must be chosen to have between 1mA and 5mA with the Vf LED"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -7024,7 +7046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "LCSC-Manufacturer" ""
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -7033,7 +7055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-MPN" "0805W8F2200T5E"
+		(property "LCSC-MPN" ""
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -7042,7 +7064,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17557"
+		(property "LCSC" ""
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -7636,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω"
+		(property "Value" "470Ω"
 			(at 170.18 59.436 90)
 			(effects
 				(font
@@ -7662,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Value must be chosen to have 5mA with the Vf LED"
+		(property "Description" "Value must be chosen to have between 1mA and 5mA with the Vf LED"
 			(at 170.18 64.77 0)
 			(effects
 				(font
@@ -7714,7 +7736,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "LCSC-Manufacturer" ""
 			(at 170.18 64.77 0)
 			(effects
 				(font
@@ -7723,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC-MPN" "0805W8F2200T5E"
+		(property "LCSC-MPN" ""
 			(at 170.18 64.77 0)
 			(effects
 				(font
@@ -7732,7 +7754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17557"
+		(property "LCSC" ""
 			(at 170.18 64.77 0)
 			(effects
 				(font
